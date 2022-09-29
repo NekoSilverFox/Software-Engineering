@@ -1,7 +1,7 @@
 <p align="center">
  <img width="100px" src="https://raw.githubusercontent.com/NekoSilverFox/NekoSilverfox/403ab045b7d9adeaaf8186c451af7243f5d8f46d/icons/silverfox.svg" align="center" alt="NekoSilverfox" />
  <p align="center"><b><font size=6>软件工程</font></b></p>
- <p align="center"><b>优质软件开发过程的基本原理及其计量方法</b></p>
+ <p align="center"><b>优质软件开发过程的基本原理及其计量方法 & 持续更新中...</b></p>
 </p>
 
 
@@ -83,10 +83,6 @@
 - 哪些问题是当前**无法修复（нерешенными）**的
 - 哪些问题是当前**严重（серьезными）**的
 - 此问题在**以前是否出现过（похожиепроблемы）**
-
-
-
-
 
 
 
@@ -303,7 +299,7 @@
     - **已解决（Fixed | Исправлена）**
     - **无效（Invalid | Недостоверная）**- 要么问题不是问题，要么报告包含不相关的事实
     - **重复（Duplicate | Дубликат）**- 该问题已经以另一个条目的形式存在于数据库中
-    - **不予修复（Wontfix | Не подлежит исправлению）**-  永远不会被修复
+    - **无法修复（Wontfix | Не подлежит исправлению）**-  永远不会被修复
     - **无法重现（Worksforme | Не воспроизводится）**- 该问题无法重现
 
 4. 问题报告已处理，代码已纠正
@@ -414,14 +410,6 @@
 - Trac - 可以与版本控制系统集成。简化了对不同版本产品的问题跟踪(http://trac/edgewall.org)
 - SourceForge – (http://www.sourceforge.net)
 - GForge
-
-
-
-## 定义
-
-> Определения
-
-
 
 
 
