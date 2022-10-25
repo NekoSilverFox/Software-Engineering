@@ -56,12 +56,6 @@
 
 > Основные этапы эволюции ПО
 
-|
-|
-|
-|
-|
-
 | 真实世界                                                     | 抽象出来的世界模型                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1. 要求/Требования/Requirements<br /><br />我们为什么要做一个软件产品？<br />结果应该是什么？ | 2. 规格/Спецификации/Specifications<br /><br />我们将如何开发软件产品以满足需求？ |
@@ -72,7 +66,59 @@
 1. **【第 1 阶段】**
 
     - **需求分析（Анализ требований）**,编写一份文件，在文件中，根据流程自动化的需要和以往经验，正式确定用户对未来服务的目标、要求和标准，并评估实施投资的经济可行性。
+
+        > 确定软件需求的主要方法有：
+        >
+        > https://wiki.mbalib.com/wiki/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%8E%B7%E5%8F%96
+        >
+        > 　　**1、用户访谈**（Интервью с пользователем）
+        >
+        > 　　用户访谈是一种最基本的需求获取手段，它是指分析人员以个别访谈或小组会议的形式与用户进行初步的[沟通](https://wiki.mbalib.com/wiki/沟通)。用户访谈的形式包括结构化和非结构化两种，结构化是指分析人员按照一定准则事先准备好一系列问题，通过用户对问题的回答来获取有关目标软件方面的内容；非结构化则是只列出一个粗糙的想法，根据访谈的具体情况来进行发挥。
+        >
+        > 　　**2、用户调查（Опрос пользователей）**
+        >
+        > 　　在进行用户访谈时，由于很多关键人员的时间有限，不易安排过多的时间或者项目涉及的客户面较广，不可能一一访谈。因此，就[需要](https://wiki.mbalib.com/wiki/需要)借助用户调查的方法，通过精心设计要问的问题，然后下发到[相关](https://wiki.mbalib.com/wiki/相关)的人员手中，让他们填写，再从所填写的内容中获取系统的需求信息，这样就可以克服上述的问题。
+        >
+        > 　　用户调查最大的不足就是缺乏灵活性，而且可能存在受调查人员不能很好表述自己想法的限制。
+        >
+        > 　　**3、现场观摩（Обследования на месте (в полевых условиях)）**
+        >
+        > 　　俗话说，百闻不如一见，对于许多较为复杂的[流程](https://wiki.mbalib.com/wiki/流程)和系统而言，是很难用自然语言表达清楚的。因此，为了能够对系统的需求获得全面的了解，实际观察用户的操作过程就是一种行之有效的方法。现场观摩就是走到[客户](https://wiki.mbalib.com/wiki/客户)的工作场所，一边观察，一边听客户讲解，甚至可以安排人员跟随客户一起工作一段时间。这样就可以使得分析人员对客户的需求有更加直观的理解。但是，在现场观摩过程中必须切记：建造软件系统不仅仅只是为了模拟客户的手工操作过程，还必须将最好的经济效益、最快的处理速度、最合理的操作流程和最友好的用户界面等作为[软件设计](https://wiki.mbalib.com/wiki/软件设计)的目标。
+        >
+        > 　　**4、文档考古**（Программная археология（Software archaeology））
+        >
+        > 　　文档考古是指对历史存在的一些文档进行研究，从带有[数据](https://wiki.mbalib.com/wiki/数据)的[文件](https://wiki.mbalib.com/wiki/文件)、表单、[报表](https://wiki.mbalib.com/wiki/报表)等文档中获取所需信息的过程。对于一些数据流程比较复杂的、工作表单较多的[项目](https://wiki.mbalib.com/wiki/项目)来说，就可以应用这种方法。
+        >
+        > 　　**5、建立联合分析小组**（Создание совместной аналитической группы）
+        >
+        > 　　在系统开发时，[系统分析员](https://wiki.mbalib.com/wiki/系统分析员)和用户之间由于[知识结构](https://wiki.mbalib.com/wiki/知识结构)的差异，难免存在难逾越的交流鸿沟。
+        >
+        > 　　用户提供的需求信息，在系统分析员看来可能是零散和片面甚至无法理解的。因此，为了能够减少交流上的问题，就[需要](https://wiki.mbalib.com/wiki/需要)一个领域专家来帮助进行[沟通](https://wiki.mbalib.com/wiki/沟通)，即可以建立一个由[用户](https://wiki.mbalib.com/wiki/用户)、系统分析员和领域专家参加的联合分析小组来共同完成需求的获取。
+        >
+        > 　　**6、[原型法（Метод прототипирования）](https://wiki.mbalib.com/wiki/原型法)**
+        >
+        > 　　原型是在软件开发中被广泛使用的一种工具，在软件系统的很多开发阶段都起着非常重要的作用。原型法就是尽可能快地建造一个粗糙的系统，这系统实现了目标系统的某些或全部功能，但是这个系统可能在[可靠性](https://wiki.mbalib.com/wiki/可靠性)、界面的友好性或其他方面上存在缺陷。建造这样一个系统的目的是为了考察某一方面的可行性，如算法的可行性，[技术](https://wiki.mbalib.com/wiki/技术)的可行性，或考察是否满足用户的需求等。原型是在最终系统产生之前的一个局部真实表现，可以让人们能够对一些具体问题进行基于[实物](https://wiki.mbalib.com/wiki/实物)的[有效沟通](https://wiki.mbalib.com/wiki/有效沟通)，从而帮助人们尽早解决软件开发中存在的各种[不确定性](https://wiki.mbalib.com/wiki/不确定性)。
+        >
+        > 　　原型主要有三种类型：探索型，实验型，进化型。探索型的目的是要弄清楚对目标系统的要求，确定所希望的特性，并探讨多种方案的可行性，实验型是用于大规模开发和实现前，考核方案是否合适，[规约](https://wiki.mbalib.com/wiki/规约)说明是否可靠；进化型的目的不在于改进规约说明，而是将系统建造得易于变化，在改进原型的过程中，逐步将原型进化成最终系统。
+        >
+        > 　　对于原型法的使用也有两种不同的策略：废弃策略和追加策略。废弃策略是指先建造一个功能简单而且[质量要求](https://wiki.mbalib.com/wiki/质量要求)不高的模型系统，针对这个系统反复进行修改，形成比较好的思想，据此设计出较完整、[准确](https://wiki.mbalib.com/wiki/准确)、一致、可靠的最终系统，系统构造完成后，原来的模型系统就被废弃不用。探索型和实验型属于这种策略。追加策略则与之不同，它是指在原模型的基础之上不断增加和修改，最终产生实用的系统。
+        >
+        > 　　在需求模糊的不确定性较大的情况下，使用[原型方法](https://wiki.mbalib.com/wiki/原型方法)来进行需求信息的获取尤其有效。
+        >
+        > 　　**7、模型驱动**（управляемые модели）
+        >
+        > 　　前面的面谈、原型、观察以及文档审查等方法可以通过执行一些具体的获取行为来对系统需求进行[认知](https://wiki.mbalib.com/wiki/认知)和理解。但是大多数软件系统，尤其是对于复杂的系统而言，它们的需求获取任务绝不是可以通过一两次这样简单的获取行为就能够完成的。为了能够使得获取行为相互配合、减少不必要的精力耗费和防止出现获取信息的遗漏，可以采用模型驱动的方法。
+        >
+        > 　　模型驱动方法是一类以[定义](https://wiki.mbalib.com/wiki/定义)明确的模型为理论基础，依据模型指导和组织活动开展的需求获取方法。这些方法的模型定义确定了所要收集的信息类型，模型的建立和完善的过程就是进行需求获取的过程。常见的模型驱动方法有面向目标的方法(Goal—Oriented Methods)、基于场景的方法(Scenario—Based Methods)和基于用例模型的方法(Use Case—Based Methods)。
+        >
+        > 　　这里主要讨论一下基于用例模型的方法。建立[用例模型](https://wiki.mbalib.com/wiki/用例模型)是一种需求获取的有效方法，其简洁清晰的描述方式容易被软件人员和[用户](https://wiki.mbalib.com/wiki/用户)共同理解和接受。在[用例模型](https://wiki.mbalib.com/wiki/用例模型)中，角色和用例是两个基本概念，分别代表着系统外部的执行者和系统应包含的功能，因此，建立用例模型的主要工作是确定角色、确定用例和描述用例。用例模型以用户和任务为中心，将整个工作的焦点集中在从用户的角度说明系统能够干什么，完全不考虑具体的实现细节，从而达到准确地理解客户需求的目的。这种方法已经在许多大型系统的开发中取得成效，实践证明它能有效地解决用户参与的问题。
+        >
+        > 　　**8、基于上下文的方法**（Контекстный подход）
+        >
+        > 　　软件系统是作为一个整体存在的，它通过和环境的交互来解决用户的问题，满足用户的需求。软件系统中的每项功能都是依存于一定的背景和上下文环境，因此，要正确地理解系统的功能就必须要正确地理解它的背景和上下文知识。基于上下文的方法就是注重于系统的环境、开发[组织](https://wiki.mbalib.com/wiki/组织)的业务背景、涉众的特征以及[目标](https://wiki.mbalib.com/wiki/目标)等。与前面的方法相比，它更加注重用户在一定环境下表现出来的[行为](https://wiki.mbalib.com/wiki/行为)，通过分析用户的行为得到[信息](https://wiki.mbalib.com/wiki/信息)。
+
     - **需求开发（Разработка требований）**是创建一个文件（需求模型），在该文件中，对用户和客户来说重要的未来产品的一系列属性、功能、特点、使用模式、状态和情况被正式确定为主题领域。
+
     - **需求规范（Спецификация требований | Requirement Specification）**- 一个文件（需求模型的规范），包含对设计对象的足够准确和完整的描述，在需求分析的基础上开发。规范是对一项任务的准确和完整的描述，它比用编程语言实现这项任务的程序更容易被参与解决的人编写、理解和阅读。规范语言通常是一种比编程语言更高层次的语言，例如非正式规范的自然语言，或者像UCM、SDL、MSC这样的正式规范语言。
 
     ![软件生命周期第一阶段](doc/pic/README/软件生命周期第一阶段.jpg)
@@ -125,15 +171,9 @@
     > 整合多平台解决方案的验证和测试流程：
     >
     > <img src="doc/pic/README/image-20221011181641083.png" alt="image-20221011181641083" style="zoom:50%;" />
-    >
-    > |
-    > |
-    > |
-    > |
-    > |
-
     
-
+    
+    
 7. **【第 7 阶段】**
 
     **文档化（Документирование）** - 按照国际（ISO/IEEE）、国家（ESPD/ANSI/...）和公司标准创建和完成产品操作和用户文档的过程。
@@ -161,6 +201,12 @@
 > ТРЕБОВАНИЯ, СПЕЦИФИКАЦИЯ ТРЕБОВАНИЙ В ПРОГРАММНОМ ПРОЕКТЕ (продолжение)
 >
 > https://sites.google.com/site/introalaingenieriadesoftware/unidad-1
+>
+> 
+>
+> 需求建模：
+>
+> https://juejin.cn/post/7074874864397451271
 
 ![SWEBOK_Organigrama](doc/pic/README/SWEBOK_Organigrama.png)
 
@@ -236,6 +282,8 @@
 > https://cloud.tencent.com/developer/article/1724043
 >
 > https://zhuanlan.zhihu.com/p/43885605
+>
+> https://wiki.mbalib.com/wiki/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E6%A8%A1%E5%9E%8B
 
 模型也称为软件开发生命周期（SDLC）模型/方法。每个过程模型都遵循其类型所独有的一系列阶段，以确保软件开发步骤中的成功。
 
@@ -1867,11 +1915,46 @@ MVC（模型-视图-控制器 | модель-представление-конт
 
     用于表示控制的流程和要执行的相关行动
 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LampFlowchart_ZhS.svg/324px-LampFlowchart_ZhS.svg.png" alt="File:LampFlowchart ZhS.svg" style="zoom:80%;" />
+
+    **常用符号**
+
+    [美国国家标准协会](https://zh.wikipedia.org/wiki/美國國家標準協會)是1960年代就开始制定流程图及一些标准符号[[3\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat20112-3)。而在1970年，[国际标准化组织](https://zh.wikipedia.org/wiki/國際標準化組織)采用其方案[[4\]](https://zh.wikipedia.org/wiki/流程图#cite_note-Myler19982-4)。现时通用的版本ISO 5807是在1985年修订[[5\]](https://zh.wikipedia.org/wiki/流程图#cite_note-5)。以下图例列出一些ISO常用符号[[6\]](https://zh.wikipedia.org/wiki/流程图#cite_note-6)[[7\]](https://zh.wikipedia.org/wiki/流程图#cite_note-7)。
+
+    |                             形状                             |                             名称                             |                             描述                             |
+    | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+    | [![Flowchart Line.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Flowchart_Line.svg/85px-Flowchart_Line.svg.png)](https://en.wikipedia.org/wiki/File:Flowchart_Line.svg) | **流程符号**Flowline (Arrowhead)[[8\]](https://zh.wikipedia.org/wiki/流程图#cite_note-Myler1998-8) | 用来表达过程的次序，用一条线由一个符号连接去到另一个符号[[9\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat2011-9)。如果不是标准的上至下、左至右图就会加上箭头[[8\]](https://zh.wikipedia.org/wiki/流程图#cite_note-Myler1998-8)。 |
+    | [![Flowchart Terminal.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Flowchart_Terminal.svg/74px-Flowchart_Terminal.svg.png)](https://en.wikipedia.org/wiki/File:Flowchart_Terminal.svg) | **起止符号**Terminal[[9\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat2011-9) | 用来表示程序或子程序的开始与完结。常以一个圆角长方形表示[[9\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat2011-9)。通常里面会标上“开始”或“结束”或其他相关字眼，如“提交查询”或“接受产品”。 |
+    | [![Flowchart Process.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Flowchart_Process.svg/76px-Flowchart_Process.svg.png)](https://en.wikipedia.org/wiki/File:Flowchart_Process.svg) | **程序**Process[[8\]](https://zh.wikipedia.org/wiki/流程图#cite_note-Myler1998-8) | 以长方形来代表一系列程序去改变量值、形式、数据的位置[[8\]](https://zh.wikipedia.org/wiki/流程图#cite_note-Myler1998-8)。 |
+    | [![Flowchart Decision.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Flowchart_Decision.svg/75px-Flowchart_Decision.svg.png)](https://en.wikipedia.org/wiki/File:Flowchart_Decision.svg) | **决策判断**Decision[[8\]](https://zh.wikipedia.org/wiki/流程图#cite_note-Myler1998-8) | 以一个菱形[[8\]](https://zh.wikipedia.org/wiki/流程图#cite_note-Myler1998-8)去显示一个条件进程，用来按情况去决定下一步走向[[9\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat2011-9)。通常以“是/否”或“真/假”值去决定。 |
+    | [![Flowchart IO.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flowchart_IO.svg/74px-Flowchart_IO.svg.png)](https://en.wikipedia.org/wiki/File:Flowchart_IO.svg) | **输入/输出**Input/Output[[8\]](https://zh.wikipedia.org/wiki/流程图#cite_note-Myler1998-8) | 以平行四边形[[9\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat2011-9)来标示数据输入或输出的过程，即填入数据或显示工作结果的步骤[[8\]](https://zh.wikipedia.org/wiki/流程图#cite_note-Myler1998-8)。 |
+    | [![Flowchart Annotation.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flowchart_Annotation.svg/80px-Flowchart_Annotation.svg.png)](https://en.wikipedia.org/wiki/File:Flowchart_Annotation.svg) | **注解**Annotation[[9\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat2011-9) (Comment)[[8\]](https://zh.wikipedia.org/wiki/流程图#cite_note-Myler1998-8) | 用来补充某步骤的额外信息，可用一个虚线来连接一个半闭合的长方型至想注释的符号中[[8\]](https://zh.wikipedia.org/wiki/流程图#cite_note-Myler1998-8)。 |
+    | [![Flowchart Predefined Process.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flowchart_Predefined_Process.svg/76px-Flowchart_Predefined_Process.svg.png)](https://en.wikipedia.org/wiki/File:Flowchart_Predefined_Process.svg) | **已定义流程**Predefined Process[[9\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat2011-9) | 用一个有2条左右垂直线长方型，来表示一个已在其他地方定义了的过程[[9\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat2011-9)。 |
+    | [![Flowchart Connector.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flowchart_Connector.svg/50px-Flowchart_Connector.svg.png)](https://en.wikipedia.org/wiki/File:Flowchart_Connector.svg) | **同页参考**On-page Connector[[9\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat2011-9) | 用一个含有字母的小圆圈来连接目标流程画于同一页上。[[9\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat2011-9)[[10\]](https://zh.wikipedia.org/wiki/流程图#cite_note-RFF-10) |
+    | [![Off page connector.png](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Off_page_connector.png/56px-Off_page_connector.png)](https://en.wikipedia.org/wiki/File:Off_page_connector.png) | **换页参考**Off-page Connector[[9\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat2011-9) | 用一个倒画的屋型来表示目标流程画于另一页上[[9\]](https://zh.wikipedia.org/wiki/流程图#cite_note-ShellyVermaat2011-9)[[10\]](https://zh.wikipedia.org/wiki/流程图#cite_note-RFF-10)。 |
+
+    **其他符号**
+
+    除了上述的基本符号，举例以下[[11\]](https://zh.wikipedia.org/wiki/流程图#cite_note-IBM1970-11)[[12\]](https://zh.wikipedia.org/wiki/流程图#cite_note-RFF2-12)：
+
+    |                             形状                             |                    名称                    |                          描述                          |
+    | :----------------------------------------------------------: | :----------------------------------------: | :----------------------------------------------------: |
+    | [![Flowchart database](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flowchart_database.svg/54px-Flowchart_database.svg.png)](https://zh.wikipedia.org/wiki/File:Flowchart_database.svg) |  **数据档或数据库**Data File or Database   |                用一个圆柱来表示数据库。                |
+    | [![Flowchart Document](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Flowchart_Document.svg/64px-Flowchart_Document.svg.png)](https://zh.wikipedia.org/wiki/File:Flowchart_Document.svg) |              **文件**Document              |         用一个附有波浪形底的长方形来标示文件。         |
+    | [![Flowchart Document multiple](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flowchart_Document_multiple.svg/64px-Flowchart_Document_multiple.svg.png)](https://zh.wikipedia.org/wiki/File:Flowchart_Document_multiple.svg) | 用多个附有波浪形底的长方形来标示多份文件。 |                                                        |
+    | [![Flowchart display](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flowchart_display.svg/71px-Flowchart_display.svg.png)](https://zh.wikipedia.org/wiki/File:Flowchart_display.svg) |              **显示**Display               |    用一个左三角正方右圆角形状来标示结果显示的过程。    |
+    | [![Flowchart manual input](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flowchart_manual_input.svg/66px-Flowchart_manual_input.svg.png)](https://zh.wikipedia.org/wiki/File:Flowchart_manual_input.svg) |        **人工操作**Manual operation        | 用一个直角半梯形来标示需要人手录入、修正或操作的过程。 |
+    | [![Flowchart Preparation](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Flowchart_Preparation.svg/70px-Flowchart_Preparation.svg.png)](https://zh.wikipedia.org/wiki/File:Flowchart_Preparation.svg) |  **初始化**Preparation or Initialization   |     用一个拉长了的六角形来代表初始化或预备的过程。     |
+
+    
+
     
 
 - ==时序图 (sequence diagrams | Диаграммы последовательности)==
 
     > https://www.bilibili.com/video/BV1nV411C7gC/?spm_id_from=333.788.recommend_more_video.2&vd_source=d8e4362c5a7a2a744149dae0bd9c79aa
+    >
+    > https://www.bilibili.com/video/BV1TK4y1Y7Jq/?spm_id_from=autoNext&vd_source=d8e4362c5a7a2a744149dae0bd9c79aa
 
     用来表示一组对象之间的互动，重点是对象之间传递信息的时间顺序
 
@@ -1883,10 +1966,10 @@ MVC（模型-视图-控制器 | модель-представление-конт
 
     - 时序图是一个二维图，横轴表示对象，纵轴表示时间，消息在各对象之间横向传递，依照时间顺序纵向排列
 
-        <img src="doc/pic/README/image-20221024210043325.png" alt="image-20221024210043325" style="zoom:50%;" />
+        ![image-20221024230159864](doc/pic/README/image-20221024230159864.png)
 
     **时序图中的元素：**
-
+    
     - 角色（Actor） - 系统角色，可以是人、及其甚至其他的系统或者子系统
     - 对象（Object）- 对象代表时序图中的对象在交互中所扮演的角色，包括三种命名方式：
         - 对象名和类名
@@ -1906,11 +1989,11 @@ MVC（模型-视图-控制器 | модель-представление-конт
     <img src="doc/pic/README/image-20221024210548686.png" alt="image-20221024210548686" style="zoom:50%;" />
 
     **消息（Message）：**
-
+    
     - 同步消息（Synchronous Message）
     - 异步消息（Asynchronous Message)
     - 返回消息（Return Message）
-
+    
     > 注意箭头和线的虚实！
     >
     > ![image-20221024210707441](doc/pic/README/image-20221024210707441.png)
@@ -1928,31 +2011,30 @@ MVC（模型-视图-控制器 | модель-представление-конт
     - `alt`
 
         可以看到，这里时序图分成了上下两个部分。`alt` 代表可以做一个判断，当 `money > 2500` 执行上半部分，否则下半部分
-
+    
         ![image-20221024211030213](doc/pic/README/image-20221024211030213.png)
         
-
     - `loop`
-
+    
         下图代表，没走已员工都要向总管汇报，然后总管返回工作安排
-
+    
         ![image-20221024211318400](doc/pic/README/image-20221024211318400.png)
         
-
     - `opt`
 
         ![image-20221024211417442](doc/pic/README/image-20221024211417442.png)
         
-
     - `par` 代表并行
-
+    
         比如像下图，当客人提交点菜请求之后，厨师的炒菜和做汤是一起进行的**（并行 | 虚线上下一起执行）**
-
+    
         ![image-20221024211458082](doc/pic/README/image-20221024211458082.png)
         
-
-    - 
-
+    
+    **案例：**
+    
+    ![image-20221024231307129](doc/pic/README/image-20221024231307129.png)
+    
     
 
 
@@ -1960,6 +2042,8 @@ MVC（模型-视图-控制器 | модель-представление-конт
 - ==状态转换图和状态图 (state transition and state chart diagrams | Диаграммы перехода между состояниями и диаграммы состояний)==
 
     用于表示从一个状态到另一个状态的控制流，以及一个组件的行为如何根据其在最终自动机中的当前状态而变化
+
+    类似于状态机中的转换图
 
     
 
@@ -1985,25 +2069,123 @@ MVC（模型-视图-控制器 | модель-представление-конт
 
 > Стратегии и методы проектирования ПО (Software Design Strategies and Methods)
 
+有各种一般的策略来帮助指导设计过程。
+
+与通用策略相比，方法更加具体，它们通常提供一套与方法一起使用的符号，对遵循方法的过程进行描述，以及一套使用方法的指南。这样的方法作为软件开发者的一般框架是有用的。
+
+- **一般策略**
+
+    > Общие стратегии (General Strategies)
+
+    一些经常被引用的在设计过程中有用的一般策略的例子包括分而治之的策略*和逐步完善的策略，自上而下和自下而上的策略和使用启发式的策略，模板和模板语言的使用，迭代和逐步的方法。
+
+    *）分而治之的方法有不同的名称：还原主义、模块化和结构主义。
+
+    
+
+- 以功能为导向的（结构化）设计
+
+    > Функционально-ориентированный (структурированный) дизайн (Function-Oriented (Structured) Design)
+
+    这是经典的软件设计方法之一，分解的重点是确定软件的核心功能，然后以自上而下的分层方式开发和完善这些功能。
+
+    结构化设计通常在结构化分析之后使用，创建（除其他外）数据流图和相关流程描述。
+
+    研究人员提出了各种策略（如转换分析、事务分析）和启发式方法（如扇入/扇出、效果范围与控制范围）来将DFD转换为软件架构，通常表示为
+    作为一个结构图。
+
+    
+
+- 面向对象的设计
+
+    > Объектно-ориентированный дизайн (Object-Oriented Design)
+
+    基于对象的软件设计方法已经被提出。
+
+    这个领域已经从80年代中期早期的面向对象（OO）设计（名词=对象；动词=方法；形容词=属性）发展到基于组件的设计领域，其中继承和多态性发挥了关键作用，元信息可以被定义和访问。
+
+    尽管面向对象的设计是基于数据抽象的概念，但责任驱动的设计已经被提出来作为一种替代的OO设计方法。
+
+    
+
+- 面向对象的设计和面向功能的（结构化）设计
+
+    > Объектно-ориентированный дизайн (Object-Oriented Design) и функционально-ориентированный (структурированный) дизайн (Function- Oriented (Structured) Design)
+
+    ![image-20221025210958510](doc/pic/README/image-20221025210958510.png)
+
+- 以数据结构为中心的设计
+
+    > Дизайн, ориентированный на структуру данных (Data Structure-Centered Design)
+
+    以数据结构为中心的设计始于程序所控制的数据结构，而不是它所执行的功能。软件工程师首先描述输入和输出数据结构，然后根据这些数据结构图开发程序的控制结构。针对特殊情况--例如，当输入和输出结构不匹配时，已经提出了各种启发式方法。
+
+    
+
+- 基于组件的设计（CBD）
+
+    > Компонентно-ориентированный дизайн (Component-Based Design (CBD))
+
+    一个软件组件是一个独立的实体，具有明确定义的接口和依赖关系，可以独立组成和部署。
+
+    基于组件的设计涉及到这种组件的提供、开发和整合，以提高重复使用。
+
+    可重用和即用的软件组件必须满足与新软件相同的安全要求。
+
+    信任管理是一个设计问题；被认为具有一定程度可靠性的组件不应该依赖可靠性较低的组件或服务。
+
+    
+
+- Другие методы (Other Methods)
+
+    也有其他方法。
+
+    迭代和适应性方法实现了软件增量，减少了对严格要求和软件设计的关注。
+
+    面向方面的设计是一种方法，通过这种方法，软件的创建使用方面来实现软件需求过程中确定的端到端问题和扩展。
+
+    面向服务的架构是一种使用分布式计算机上运行的网络服务来创建分布式软件的方式。
+    软件系统通常使用来自不同供应商的服务来构建，因为标准协议（如HTTP、HTTPS、SOAP）被设计用来支持服务通信和服务信息的交换。
 
 
 
+## 软件设计工具
+
+> Инструменты для проектирования ПО (Software Design Tools)
+>
+> Software design tools can be used to support the creation of the software design artifacts during the software development process. They can support part or whole of the following activities:
+> • to translate the requirements model into a design representation;
+> • to provide support for representing functional components and their interface(s);
+> • to implement heuristics refinement and partitioning;
+> • to provide guidelines for quality assessment.
+
+软件设计工具可以用来支持软件开发过程中软件设计工件的创建。它们可以支持以下活动的一部分或全部。
+- 将需求模型转换为设计表示。
+- 为表示功能部件和它们的接口提供支持。
+- 实现启发式的细化和划分。
+- 为质量评估提供指导。
 
 
 
+> 1.2 Инструменты проектирования (Software Design Tools) 
+>
+> Эта тема охватывает инструменты для создания и проверки программного дизайна. **Существует большое разнообразие таких инструментов, использующих различные нотации (соглашения, в том числе визуальные) и методы.** Несмотря на такое разнообразие, <авторами SWEBOK> не было найдено <адекватной> классификации этих инструментов. 
+>
+> Однако, в данном случае, все же воз**можно разделение инструментов по нескольким критериям, например, применяемым базовым нотациям моделирования и проектирования (SADT/IDEF, UML, BPMN/BPEL, Microsoft DSL и т.п.) или целевым задачам (бизнес-моделирование, проектирование БД, объектно-ориентированное проектирование, интеграционное/SOA-проектирование и т.п.).**
 
+本主题包括用于创建和验证软件设计的工具。有 这些工具种类繁多，使用不同的符号（惯例，包括 符号（惯例，包括可视化的）和方法。尽管有这种多样性，<SWEBOK> 的作者并没有 发现这些工具的分类 <不充分>。
 
+然而，在这种情况下，仍然可以根据几个标准来划分工具。例如，应用的基础建模和设计符号（SADT/IDEF，UML。BPMN/BPEL、Microsoft DSL等）或目标任务（业务建模、数据库设计）。或目标任务（业务建模、数据库设计、面向对象设计、集成/SOA设计等）。
 
+### SADT
 
+> https://samara.mgpu.ru/~dzhadzha/dis/15/160.html
+>
+> http://sewiki.ru/SADT
 
+SADT 是最著名和广泛使用的设计系统之一。SADT 是结构化分析和设计技术（结构分析和设计技术）的缩写，是描述系统的图形符号和方法。Douglas T. Ross 在大约 20 年前介绍了它们（SADT 是在 1969 年至 1973 年间创建并首次在实践中测试的）。
 
-
-
-
-
-
-
-
+SADT 是一种专门用于帮助描述和理解属于中等复杂性类别的人工系统的方法。美国空军使用 SADT 方法作为其集成计算机辅助制造 (ICAM) 计划的一部分，并将其称为 IDEF0 (Icam DEFinition)。ICAM 计划的目标是提高计算机技术在新武器和战争设计中的有效性。这些研究的结果之一是得出的结论是，描述性语言对于记录和建模复杂系统的运行过程无效。自然语言中的此类描述无法提供所需的一致性和完整性，
 
 
 
